@@ -68,7 +68,7 @@ const Register = () => {
 
 
   <div className='flex flex-col md:flex-row sm:flex-col justify-content-center align-items-center '>
-      <form onSubmit={handleCreateUser} className="w-full md:w-[570px] mt-15 mb-10 p-10  bg-white rounded-lg text-black">
+      <form onSubmit={handleCreateUser} className="w-full  mt-15 mb-10 p-10  bg-white rounded-lg text-black">
       <h3 className='text-2xl font-bold mb-5'>Create an account</h3>
       <div className="form-control">
 
@@ -130,9 +130,9 @@ const Register = () => {
         </div>
       </div>
     </form>
-     <div className="col-md-6">
+     <div className="w-full">
      <img
-       className="w-100"
+      
        src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7965.jpg?w=826&t=st=1683184979~exp=1683185579~hmac=a3fbecb0b235ca218a1331776d51a6229da1c3baf8eb01e0058f917acb0a7252"
        alt=""
      />
