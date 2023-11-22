@@ -13,23 +13,9 @@ const Header = () => {
             });
     };
     return (
-        <div className="navbar bg-cyan-100 shadow-lg p-3">
+        <div className="navbar bg-cyan-100 shadow-lg p-3 w-full">
             <div className="flex-1">
-                <div className="avatar placeholder">
-                    <div className="bg-neutral-focus text-neutral-content rounded-full w-14 ">
-                        <span className="text-3xl">F</span>
-                    </div>
-                </div>
-                <div className="avatar online placeholder">
-                    <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
-                        <span className="text-xl">OO</span>
-                    </div>
-                </div>
-                <div className="avatar placeholder">
-                    <div className="bg-neutral-focus text-neutral-content rounded-full w-10">
-                        <span>DLEE</span>
-                    </div>
-                </div>
+              <a href='#' className='text-xl lg:text-2xl font-bold'>FoodLEE</a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
