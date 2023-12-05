@@ -1,21 +1,21 @@
-import React from 'react';
+
 
 const Review = () => {
     return (
-        <div className='py-5'>
+        <div className='py-8'>
             
            
             <div className='text-center '><h2 className='text-2xl mb-3 mx-auto items-center font-bold text-blue-500 my-5'>Our Previous Review</h2>
-            <div className="rating mx-auto items-center">
+            <div className="rating mx-auto items-center pb-8">
                 <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
-                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" checked />
-                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
-                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
-                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-600" checked />
+                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-700" />
+                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-100" />
+                <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-400" />
             </div>
             </div>
-            <div className='flex flex-col lg:flex-row px-3 justify-center gap-2'>
-                <div className="bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/2">
+            <div className='flex flex-col lg:flex-row px-3 justify-center gap-7 pt-4'>
+                <div className="bg-white p-6 rounded-lg shadow-lg w-full lg:w-[75vh]">
                     <div className="flex items-center">
                         <img
                             className="h-12 w-12 rounded-full mr-4"
@@ -27,11 +27,11 @@ const Review = () => {
                             <p className="text-gray-500 text-sm">2 days ago</p>
                         </div>
                     </div>
-                    <p className="mt-4 text-gray-700 text-base">
+                    <p className="mt-4 text-gray-700 text-base ">
                         This fastfood dish  perfectly cooked shrimp served over a bed of creamy risotto. I would highly recommend it to anyone who loves fastfood.
                     </p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-lg">
+                <div className="bg-white p-6 rounded-lg shadow-lg w-full lg:w-[75vh]">
                     <div className="flex items-center">
                         <img
                             className="h-12 w-12 rounded-full mr-4"
