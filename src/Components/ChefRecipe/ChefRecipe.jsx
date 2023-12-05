@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react';
-import { AcademicCapIcon, HandThumbUpIcon, ShoppingCartIcon } from '@heroicons/react/24/solid'
+
+import { AcademicCapIcon, HandThumbUpIcon, } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 
 const ChefRecipe = ({ recipeData }) => {
@@ -13,9 +12,9 @@ const ChefRecipe = ({ recipeData }) => {
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
           <p>{description}</p>
-          <div className="flex justify-around items-center">
-            <p ><HandThumbUpIcon className="h-6 w-6 text-blue-500" />{likes}</p>
-            <p ><AcademicCapIcon className="h-6 w-6 text-blue-500" />{experience}</p>
+          <div className="flex flex-row justify-around items-center">
+            <p  className="flex flex-row  gap-3 items-center"><HandThumbUpIcon className="h-6 w-6 text-blue-500" />{likes}</p>
+            <p  className="flex flex-row  gap-3 items-center"><AcademicCapIcon className="h-6 w-6 text-blue-500" />{experience}</p>
 
           </div>
           <Link to={`/recipeData/${recipeData?.id}`}>

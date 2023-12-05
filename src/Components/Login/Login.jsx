@@ -97,7 +97,7 @@ const Login = () => {
             <p className='text-center'>Don't have an account? <Link to='/register' className='text-warning underline'>Create an account</Link></p>
             <div className=" social-button-container grid grid-rows-2 justify-items-center w-50 ">
                 <div onClick={handleGoogle} className="">
-            <p>_____________or_______________</p>
+                <div className="divider"> or</div> 
                     <img 
 
                         className=" social-button"

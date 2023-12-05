@@ -2,7 +2,7 @@
 
 import { Carousel } from "keep-react";
 import { ArrowLineLeft, ArrowLineRight } from "phosphor-react";
-import React, { useState } from 'react';
+
 import  { Suspense, lazy } from 'react';
 const LazyImage = lazy(() => import('./Container'));
 
@@ -28,20 +28,18 @@ const Banner = () => {
       <img
         src="https://oneriverpoint.com/wp-content/uploads/2016/08/how-to-find-best-private-chefs-miami-1.jpg"
         alt="slider-1"
-        height={400}
-        width={910}
+       
+        className="w-full h-full"
       />
       <img
         src="https://th.bing.com/th/id/R.0e3e29b9e474eb9313e8c231bc1697da?rik=aGqdDCKB7VnbSg&pid=ImgRaw&r=0"
         alt="slider-2"
-        height={400}
-        width={910}
+        className="w-full h-full"
       />
       <img
         src="https://th.bing.com/th/id/R.6e0ee678a8d2fef873a67ecfa6b023e6?rik=PT3kDM2c%2b1nx%2bA&pid=ImgRaw&r=0"
         alt="slider-3"
-        height={400}
-        width={910}
+        className="w-full h-full"
       />
    
     </Carousel>
