@@ -26,7 +26,8 @@ const Banner = () => {
         </span>
       }>
       <img
-        src="https://oneriverpoint.com/wp-content/uploads/2016/08/how-to-find-best-private-chefs-miami-1.jpg"
+        src="https://images.pexels.com/photos/8844888/pexels-photo-8844888.jpeg
+        "
         alt="slider-1"
        
         className="w-full h-full"

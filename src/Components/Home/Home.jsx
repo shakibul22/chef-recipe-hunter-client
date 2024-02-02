@@ -34,9 +34,9 @@ const Home = () => {
                 :
                 <div>
                     <Banner></Banner>
-                    <div className='text-center '><h2 className='text-3xl lg:text-4xl pb-3 mx-auto items-center font-extrabold text-orange-300 py-16'>Our Respected Chef</h2>
-                    <p className='w-full lg:w-[40vh] mx-auto pb-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, voluptatem.</p></div>
-                    <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4  justify-center items-center w-full mx-auto  px-2 pb-4'>
+                    <div className='text-center  '><h2 className='text-3xl lg:text-4xl pb-3 mx-auto items-center font-extrabold text-orange-300 py-16'>Our Respected Chef</h2>
+                    <p className='w-full lg:max-w-[40vh] mx-auto pb-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, voluptatem.</p></div>
+                    <div className='grid grid-cols-1 w-full lg:max-w-7xl mx-auto  md:grid-cols-2 lg:grid-cols-3 gap-4  justify-center items-center w-full mx-auto  px-2 pb-4'>
                         {
                             recipeDatas.map(recipeData => <ChefRecipe recipeData={recipeData} key={recipeData.id}></ChefRecipe>)
                         }

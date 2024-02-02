@@ -2,7 +2,7 @@
 
 const Review = () => {
     return (
-        <div className='py-8'>
+        <div className='py-8 w-full lg:max-w-7xl mx-auto'>
             
            
             <div className='text-center '><h2 className='text-2xl mb-3 mx-auto items-center font-bold text-blue-500 my-5'>Our Previous Review</h2>

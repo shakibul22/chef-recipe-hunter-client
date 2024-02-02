@@ -67,7 +67,7 @@ const Register = () => {
   return (
 
 
-  <div className='flex flex-col md:flex-row sm:flex-col justify-center items-center '>
+  <div className='flex flex-col md:flex-row sm:flex-col justify-center items-center w-full lg:max-w-5xl mx-auto '>
       <form onSubmit={handleCreateUser} className="w-full  mt-15 mb-10 p-10   rounded-lg text-black">
       <h3 className='text-2xl font-bold mb-5'>Create an account</h3>
       <div className="form-control">
@@ -131,7 +131,7 @@ const Register = () => {
       </div>
     </form>
      <div className="w-full">
-     <img
+     <img className='w-full'
       
        src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7965.jpg?w=826&t=st=1683184979~exp=1683185579~hmac=a3fbecb0b235ca218a1331776d51a6229da1c3baf8eb01e0058f917acb0a7252"
        alt=""

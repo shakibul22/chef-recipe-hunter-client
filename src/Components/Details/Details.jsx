@@ -19,7 +19,7 @@ const Details = () => {
   }
   return (
     <div>
-      <div className="card lg:card-side bg-base-100 shadow-xl p-3">
+      <div className="card lg:card-side shadow-md p-3">
         <figure><img src={item.picture} alt="Album" /></figure>
         <div className="card-body">
           <h2 className="card-title">{item.name}</h2>
@@ -31,7 +31,7 @@ const Details = () => {
 
       <div className='text-center '><h2 className='text-4xl mb-12 mx-auto items-center font-extrabold text-orange-300 my-5'>Recipes Features</h2></div>
 
-      <div className='grid grid-cols-1  p-10 md:grid-cols-3  justify-center gap-5 mb-4'>
+      <div className='grid grid-cols-1  p-10 md:grid-cols-3  justify-center gap-5 mb-4 w-full lg:max-w-7xl mx-auto'>
         {
 
           item?.recipes?.map(recipe => <Recipes recipe={recipe} key={recipe.ingredients}></Recipes>)
